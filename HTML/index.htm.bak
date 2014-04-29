@@ -6,9 +6,9 @@
     a {      color: white;    }    
 	h1 {      font-size: 70px;    }    
 	img {      margin: 10px 0px 0px 0px;  }  /*  border: 7px solid white;     }  border-radius: 20px;    } */  
-    ul {       padding: 10px;   }   /* background: rgba(0,0,0,0.1);    }    */
+    ul {       padding: 10px;      background: rgba(0,0,0,0.1);    }    
 	  li {      display: inline;  }  /*  padding: 0px 10px 0px 10px;    }  */
-    article { margin: 0 auto;  color: #008DD0;   max-width: 500px;  }   /* padding: 20px;}    */
+    article { margin: 0 auto;     max-width: 500px;  }   /* padding: 20px;}    */
 	@media (max-width: 500px) 
 			{ h1 { font-size: 36px; }		
 			  li { display:block; padding: 5px; } }  
@@ -31,17 +31,14 @@
 	#context-menu ol .list-devider hr	{	margin: 2px 0px;	}
 	#context-menu ol li a		{		color: Black;		text-decoration: none;		display: block;				padding: 0px 5px;	}
 	#context-menu ol li a:active{		color: White;		}
-	h2.only {color: #008DD0;}	
+		
     p { font-size: 22px; }    
 	input { border: 0; padding: 10px; font-size:18px; }    
 	input[type="submit"] {background: red; color: white; }  
 	img.limg { width: 25px; height: 25px; }</style></head>
 <body> 
  <header>   <h1>Cary's Videos</h1>
-   <ul>     
-			<li><img src="bluraydisc.jpg"width="15px" height="15px">Blu-Rays: </img>  
-</li>
-			<li>#</li>      
+   <ul>     <li>#</li>      
 			<li><a href="CUMediaCollectionA_BR.htm">A</a></li>      
 			<li><a href="CUMediaCollectionB_BR.htm">B</a></li>      
 			<li><a href="CUMediaCollectionC_BR.htm">C</a></li>      
@@ -68,39 +65,9 @@
 			<li><a href="CUMediaCollectionX_BR.htm">X</a></li>      
 			<li><a href="CUMediaCollectionY_BR.htm">Y</a></li>      
 			<li><a href="CUMediaCollectionZ_BR.htm">Z</a></li>      
-    </ul>    <ul>     
-			<li><img src="DVD.jpg"width="15px" height="15px">DVDs: </img>  
-</li>
-			<li><a href="CUMediaCollectionNumbers_DVD.htm">#</a></li>      
-			<li><a href="CUMediaCollectionA_DVD.htm">A</a></li>      
-			<li><a href="CUMediaCollectionB_DVD.htm">B</a></li>      
-			<li><a href="CUMediaCollectionC_DVD.htm">C</a></li>      
-			<li><a href="CUMediaCollectionD_DVD.htm">D</a></li>      
-			<li><a href="CUMediaCollectionE_DVD.htm">E</a></li>      
-			<li><a href="CUMediaCollectionF_DVD.htm">F</a></li>      
-			<li><a href="CUMediaCollectionG_DVD.htm">G</a></li>      
-			<li><a href="CUMediaCollectionH_DVD.htm">H</a></li>      
-			<li><a href="CUMediaCollectionI_DVD.htm">I</a></li>      
-			<li><a href="CUMediaCollectionJ_DVD.htm">J</a></li>      
-			<li><a href="CUMediaCollectionK_DVD.htm">K</a></li>      
-			<li><a href="CUMediaCollectionL_DVD.htm">L</a></li>      
-			<li><a href="CUMediaCollectionM_DVD.htm">M</a></li>      
-			<li><a href="CUMediaCollectionN_DVD.htm">N</a></li>      
-			<li><a href="CUMediaCollectionO_DVD.htm">O</a></li>      
-			<li><a href="CUMediaCollectionP_DVD.htm">P</a></li>      
-			<li><a href="CUMediaCollectionQ_DVD.htm">Q</a></li>      
-			<li><a href="CUMediaCollectionR_DVD.htm">R</a></li>      
-			<li><a href="CUMediaCollectionS_DVD.htm">S</a></li>      
-			<li><a href="CUMediaCollectionT_DVD.htm">T</a></li>      
-			<li><a href="CUMediaCollectionU_DVD.htm">U</a></li>      
-			<li><a href="CUMediaCollectionV_DVD.htm">V</a></li>      
-			<li><a href="CUMediaCollectionW_DVD.htm">W</a></li>      
-			<li><a href="CUMediaCollectionX_DVD.htm">X</a></li>      
-			<li><a href="CUMediaCollectionY_DVD.htm">Y</a></li>      
-			<li><a href="CUMediaCollectionZ_DVD.htm">Z</a></li>      
     </ul>  </header>
 
-	<h2 class="only"><img src="bluraydisc.jpg"> Only </img>  
+	<h2><img src="bluraydisc.jpg">Only</img>  
 </h2>
 <h5>Note: New Blue Ray Color font is Baby Blue </h5>
 <h2>#--Numbered Blu-Ray's</h2>
