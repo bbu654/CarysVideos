@@ -89,26 +89,4 @@
 <script>	$("button").on("click", function() {  alert("clicked!")  });	</script>	
 
 </body></html>
-<div id="context-menu">
-	<ol>
-		<li><a href="#">menu 1</a> </li>
-		<li><a href="#">menu 2</a> </li>
-		<li class="list-devider">	<hr />		</li>
-		<li><a href="#">menu 3</a> </li>
-		<li><a href="#">menu 4</a> </li>
-		<li><a href="#">menu 5</a> </li>
-		<li class="list-devider">	<hr />		</li>
-		<li><a href="#">menu 6</a> </li>
-		<li><a href="#">menu 7</a> </li>
-	</ol>
-</div><script>
-$(document).ready(function () {
-								try {
-										$(document).bind("contextmenu", function (e) {
-																						e.preventDefault();
-																						$("#context-menu").css({ top: e.pageY + "px", left: e.pageX + "px" }).show(100);	});
-									}
-								catch (err) {	alert(err);	}
-							   });
-</script>
-<script>$(document).bind("click", function (event) {		$("#context-menu").hide();		});		</script>
+
